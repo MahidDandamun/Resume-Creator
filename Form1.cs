@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+//using 
 
 namespace Resume_Creator
 {
@@ -28,19 +28,19 @@ namespace Resume_Creator
         private void cbxNavigateFiles_Click(object sender, EventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();
-            open.Title = "Selec File";
-            open.InitialDirectory = @"E:\Downloads";
-            open.Filter = "All files(*.*)|*.*|Text File (*.json)|*.json";
+            open.Title = "Select File";
+            open.InitialDirectory = @"E:\Downloads";        
+            open.Filter = "JSON|*.json";
             open.FilterIndex = 1;
             open.ShowDialog();
-            if (open.FileName!="")
+            if (open.FileName !="")
             {
                 cbxNavigateFiles.Text = open.FileName;
             }
             else
             {
-                cbxNavigateFiles.Text = "";
-            }
+                MessageBox.Show("Select Json file please");
+            }          
         }
 
         private void btnCreateResume_Click(object sender, EventArgs e)
@@ -53,7 +53,7 @@ namespace Resume_Creator
             }
             else
             {
-
+                cbxNavigateFiles.Text = "";               
             }
         }
     }
