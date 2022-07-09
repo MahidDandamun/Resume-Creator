@@ -1,0 +1,17 @@
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.exe
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.deps.json
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.runtimeconfig.json
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.runtimeconfig.dev.json
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.dll
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Resume Creator.pdb
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.csproj.AssemblyReference.cache
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume_Creator.FrmResumeCreator.resources
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.csproj.GenerateResource.cache
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.AssemblyInfoInputs.cache
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.AssemblyInfo.cs
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.csproj.CoreCompileInputs.cache
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.dll
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.pdb
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.genruntimeconfig.cache
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume_Creator.Properties.Resources.resources
