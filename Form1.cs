@@ -28,23 +28,32 @@ namespace Resume_Creator
         private void cbxNavigateFiles_Click(object sender, EventArgs e)
         {
             OpenFileDialog open = new OpenFileDialog();
-            if (open.ShowDialog() == DialogResult.OK)
+            open.Title = "Selec File";
+            open.InitialDirectory = @"E:\Downloads";
+            open.Filter = "All files(*.*)|*.*|Text File (*.json)|*.json";
+            open.FilterIndex = 1;
+            open.ShowDialog();
+            if (open.FileName!="")
             {
-                string path = open.FileName;
-                //Contents 
+                cbxNavigateFiles.Text = open.FileName;
+            }
+            else
+            {
+                cbxNavigateFiles.Text = "";
+            }
+        }
 
+        private void btnCreateResume_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your resume is now created");
+            DialogResult dialogResult = MessageBox.Show("Do you want to create another one?", "Confirmation", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.No)
+            {
+                this.Close();
+            }
+            else
+            {
 
-                MessageBox.Show("Your resume is now created");
-
-                DialogResult dialogResult= MessageBox.Show("Do you want to create another one?", "Confirmation", MessageBoxButtons.YesNo);                
-                if (dialogResult == DialogResult.No) 
-                {
-                    this.Close();
-                }
-                else 
-                {
-
-                }
             }
         }
     }

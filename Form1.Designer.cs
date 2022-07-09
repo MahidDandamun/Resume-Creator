@@ -37,6 +37,7 @@ namespace Resume_Creator
             this.lblFileName = new System.Windows.Forms.Label();
             this.pbxClose = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnCreateResume = new System.Windows.Forms.Button();
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxClose)).BeginInit();
@@ -116,12 +117,27 @@ namespace Resume_Creator
             this.label1.TabIndex = 3;
             this.label1.Text = "Insert Json File";
             // 
+            // btnCreateResume
+            // 
+            this.btnCreateResume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(56)))), ((int)(((byte)(57)))));
+            this.btnCreateResume.FlatAppearance.BorderSize = 0;
+            this.btnCreateResume.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreateResume.ForeColor = System.Drawing.Color.White;
+            this.btnCreateResume.Location = new System.Drawing.Point(484, 297);
+            this.btnCreateResume.Name = "btnCreateResume";
+            this.btnCreateResume.Size = new System.Drawing.Size(104, 31);
+            this.btnCreateResume.TabIndex = 5;
+            this.btnCreateResume.Text = "Create Resume";
+            this.btnCreateResume.UseVisualStyleBackColor = false;
+            this.btnCreateResume.Click += new System.EventHandler(this.btnCreateResume_Click);
+            // 
             // FrmResumeCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.ClientSize = new System.Drawing.Size(772, 459);
+            this.Controls.Add(this.btnCreateResume);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbxClose);
             this.Controls.Add(this.lblFileName);
@@ -150,6 +166,7 @@ namespace Resume_Creator
         private System.Windows.Forms.Label lblFileName;
         private System.Windows.Forms.PictureBox pbxClose;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnCreateResume;
     }
 }
 

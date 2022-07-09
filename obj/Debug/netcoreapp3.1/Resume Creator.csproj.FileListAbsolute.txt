@@ -15,3 +15,5 @@ C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\net
 C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.pdb
 C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.genruntimeconfig.cache
 C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume_Creator.Properties.Resources.resources
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MAHID DANDAMUN\source\repos\Resume Creator\Resume Creator\obj\Debug\netcoreapp3.1\Resume Creator.csproj.CopyComplete

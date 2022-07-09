@@ -6,6 +6,6 @@ namespace JSONfileReceiver
 {
     class JSONdecoder
     {
-
+        
     }
 }
