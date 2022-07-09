@@ -34,9 +34,9 @@ namespace Resume_Creator
             this.pbxLogo = new System.Windows.Forms.PictureBox();
             this.lblDesign = new System.Windows.Forms.Label();
             this.cbxNavigateFiles = new System.Windows.Forms.ComboBox();
-            this.btnCreateResume = new System.Windows.Forms.Button();
             this.lblFileName = new System.Windows.Forms.Label();
             this.pbxClose = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.pnl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxClose)).BeginInit();
@@ -77,31 +77,18 @@ namespace Resume_Creator
             // 
             this.cbxNavigateFiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxNavigateFiles.FormattingEnabled = true;
-            this.cbxNavigateFiles.Location = new System.Drawing.Point(389, 213);
+            this.cbxNavigateFiles.Location = new System.Drawing.Point(407, 215);
             this.cbxNavigateFiles.Name = "cbxNavigateFiles";
-            this.cbxNavigateFiles.Size = new System.Drawing.Size(350, 23);
+            this.cbxNavigateFiles.Size = new System.Drawing.Size(278, 23);
             this.cbxNavigateFiles.TabIndex = 1;
-            // 
-            // btnCreateResume
-            // 
-            this.btnCreateResume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.btnCreateResume.FlatAppearance.BorderSize = 0;
-            this.btnCreateResume.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCreateResume.Font = new System.Drawing.Font("Century Schoolbook", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCreateResume.ForeColor = System.Drawing.Color.White;
-            this.btnCreateResume.Location = new System.Drawing.Point(472, 327);
-            this.btnCreateResume.Name = "btnCreateResume";
-            this.btnCreateResume.Size = new System.Drawing.Size(145, 36);
-            this.btnCreateResume.TabIndex = 2;
-            this.btnCreateResume.Text = "Create Resume";
-            this.btnCreateResume.UseVisualStyleBackColor = false;
+            this.cbxNavigateFiles.Click += new System.EventHandler(this.cbxNavigateFiles_Click);
             // 
             // lblFileName
             // 
             this.lblFileName.AutoSize = true;
             this.lblFileName.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblFileName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.lblFileName.Location = new System.Drawing.Point(307, 215);
+            this.lblFileName.Location = new System.Drawing.Point(325, 217);
             this.lblFileName.Name = "lblFileName";
             this.lblFileName.Size = new System.Drawing.Size(76, 17);
             this.lblFileName.TabIndex = 3;
@@ -118,15 +105,26 @@ namespace Resume_Creator
             this.pbxClose.TabStop = false;
             this.pbxClose.Click += new System.EventHandler(this.pbxClose_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(325, 167);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(180, 30);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Insert Json File";
+            // 
             // FrmResumeCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
             this.ClientSize = new System.Drawing.Size(772, 459);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pbxClose);
             this.Controls.Add(this.lblFileName);
-            this.Controls.Add(this.btnCreateResume);
             this.Controls.Add(this.cbxNavigateFiles);
             this.Controls.Add(this.pnl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -149,9 +147,9 @@ namespace Resume_Creator
         private System.Windows.Forms.Label lblDesign;
         private System.Windows.Forms.PictureBox pbxLogo;
         private System.Windows.Forms.ComboBox cbxNavigateFiles;
-        private System.Windows.Forms.Button btnCreateResume;
         private System.Windows.Forms.Label lblFileName;
         private System.Windows.Forms.PictureBox pbxClose;
+        private System.Windows.Forms.Label label1;
     }
 }
 
